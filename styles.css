@@ -1,7 +1,73 @@
 @font-face {
+    font-family: IBMPlexMonoBold;
+    src: url(IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoBoldItalic;
+    src: url(IBM_Plex_Mono/IBMPlexMono-BoldItalic.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoExtraLight;
+    src: url(IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoExtraLightItalic;
+    src: url(IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoItalic;
+    src: url(IBM_Plex_Mono/IBMPlexMono-Italic.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoLight;
+    src: url(IBM_Plex_Mono/IBMPlexMono-Light.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoLightItalic;
+    src: url(IBM_Plex_Mono/IBMPlexMono-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoMedium;
+    src: url(IBM_Plex_Mono/IBMPlexMono-Medium.ttf);
+}
+
+@font-face {
     font-family: IBMPlexMonoMediumItalic;
     src: url(IBM_Plex_Mono/IBMPlexMono-MediumItalic.ttf);
 }
+
+@font-face {
+    font-family: IBMPlexMonoRegular;
+    src: url(IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoSemiBold;
+    src: url(IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoSemiBoldItalic;
+    src: url(IBM_Plex_Mono/IBMPlexMono-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoThin;
+    src: url(IBM_Plex_Mono/IBMPlexMono-Thin.ttf);
+}
+
+@font-face {
+    font-family: IBMPlexMonoThinItalic;
+    src: url(IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf);
+}
+
 
 body
 {
