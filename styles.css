@@ -90,4 +90,27 @@ body
     height: 200px;
     object-fit: cover;
     border-radius: 50%;
+    
+    grid-area: headshot;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.item1 { grid-area: headshot; }
+.item2 { grid-area: header; }
+.item3 { grid-area: intro; }
+
+.title-card
+{
+    display: grid;
+    grid-template-areas:
+        'headshot header'
+        'headshot intro' ;
+    gap: 20px;
+    background-color: bisque;
+}
+
+
+
+
