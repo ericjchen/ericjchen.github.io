@@ -1,1 +1,13 @@
+@font-face {
+    font-family: IBMPlexMonoMediumItalic;
+    src: url(IBM_Plex_Mono/IBMPlexMono-MediumItalic.ttf);
+}
 
+body
+{
+    background-color:aquamarine;
+    font-family: IBMPlexMonoMediumItalic;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+}
