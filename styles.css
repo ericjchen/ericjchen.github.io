@@ -72,8 +72,15 @@
 body
 {
     background-color:rgb(240, 240, 240);
+
     font-family: IBMPlexMonoRegular;
     text-align: center;
     font-size: 20px;
     color:black;
+}
+
+.text
+{
+    margin: auto;
+    width: 75vw;
 }
