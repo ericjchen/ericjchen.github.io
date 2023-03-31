@@ -68,6 +68,57 @@
     src: url(IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf);
 }
 
+.sec1
+{
+    height: 100vh;
+    width: auto;
+    background-image: url("images/TwinHills.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:0;
+    margin-bottom: 50px;
+}
+
+.sec2
+{
+    height: 100vh;
+    width: auto;
+    background-image: url("images/SandBeach.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:0;
+    margin-bottom: 50px;
+}
+
+.sec3
+{
+    height: 100vh;
+    width: auto;
+    background-image: url("images/RockWalkway.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:0;
+    margin-bottom: 50px;
+}
+
+.sec4
+{
+    height: 100vh;
+    width: auto;
+    background-image: url("images/Ducks.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align:center;
+    padding:0;
+    margin-bottom: 50px;
+}
 
 
 
