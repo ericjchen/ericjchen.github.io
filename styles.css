@@ -78,14 +78,10 @@
     background-size: cover;
 
     padding:0;
-    margin-top: 10vh;
-    margin-bottom: 30vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
-
-    box-shadow: 0 0 5 10 black;
 }
 
 .textCard
@@ -100,6 +96,13 @@
     box-shadow: 0px 0px 10px 1px darkgray;
 
     padding: 20px;
+}
+
+.whitespace
+{
+    height: 100px;
+    width: auto;
+    box-shadow: 0 0 10px 10px white;
 }
 
 
