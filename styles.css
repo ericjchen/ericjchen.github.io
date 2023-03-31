@@ -91,14 +91,18 @@ body
 
 .textCard
 {
+    width: 60vw;
+    height: 40vh;
+
+    background-color:rgba(248,248,248,0.7);
+
     border: 10px solid rgba(240,240,240,0.5);
     border-width: thick;
-    background-color:rgba(248,248,248,0.7);
-    height: 200px;
-    width: 400px;
+    
+    
     border-radius: 50px;
     
-    box-shadow: 0px 0px 10px 1px darkgray;
+    box-shadow: 0px 0px 10px 1px black;
 
     padding: 20px;
 }
@@ -107,7 +111,6 @@ body
 {
     height: 30vh;
     width: auto;
-    box-shadow: 0 0 10px 10px white;
 }
 
 
