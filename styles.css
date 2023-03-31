@@ -76,7 +76,7 @@
     width: auto;
     
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -144,6 +144,12 @@
     margin-bottom: 10vh;
 }
 
+.textCard
+{
+    background:aliceblue;
+    height: 200px;
+    width: 200px;
+}
 
 
 
