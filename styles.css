@@ -71,8 +71,6 @@
 
 body
 {
-    background-color:rgb(240, 240, 240);
-
     font-family: IBMPlexMonoRegular;
     font-size: 20px;
     color:black;
@@ -118,9 +116,31 @@ body
         'headshot header'
         'headshot intro' ;
     gap: 20px;
-    background-color: bisque;
+    background-color: rgb(240, 240, 240);
+    padding: 50px;
 }
 
+.sec1
+{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 25px;
+    margin-right: 0px;
+    margin-left: 0px;
 
+}
 
+.parallax
+{
+    /* The image used */
+    background-image: url("images/Background.jpg");
 
+    /* Set a specific height */
+    min-height: 100vh; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
