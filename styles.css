@@ -117,9 +117,10 @@ body
         'headshot intro' ;
     gap: 50px;
     background-color: rgb(240, 240, 240);
+    border-radius: 10ch;
     padding: 50px;
     height: 50vh;
-    transform: translate(0,25vh)
+    transform: translate(0,25vh);
 }
 
 .parallax
