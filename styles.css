@@ -68,8 +68,9 @@
     src: url(IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf);
 }
 
-body{
-    overflow: hidden;
+body
+{
+    overflow-x: hidden;
 }
 
 .parallax
