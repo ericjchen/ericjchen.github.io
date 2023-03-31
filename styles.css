@@ -85,8 +85,8 @@ body
 #headshot
 {
     
-    width: 33vh;
     height: 33vh;
+    width: 33vh;
     object-fit: cover;
     border-radius: 50%;
     grid-area: headshot;
@@ -106,15 +106,16 @@ body
     font-family: IBMPlexMonoBoldItalic;
     display: flex;
     align-items: center;
-    justify-content: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
 .item3
 { 
     grid-area: intro; 
     font-family: IBMPlexMonoMediumItalic;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: top;
 }
 
 .title-card
