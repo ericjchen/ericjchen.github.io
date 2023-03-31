@@ -98,20 +98,17 @@ body
 .item1
 {
     grid-area: headshot;
+    text-align: center;
 }
 .item2
 {
     grid-area: header;
     font-family: IBMPlexMonoBoldItalic;
-    vertical-align: middle;
 }
 .item3
 { 
     grid-area: intro; 
     font-family: IBMPlexMonoMediumItalic;
-    line-height: normal;
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .title-card
@@ -121,7 +118,6 @@ body
         'headshot header'
         'headshot intro' ;
     gap: 20px;
-    padding: 50px;
     background-color: bisque;
 }
 
