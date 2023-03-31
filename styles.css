@@ -79,14 +79,22 @@
 
     padding:0;
     margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-bottom: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .textCard
 {
     background:aliceblue;
     height: 200px;
-    width: 200px;
+    width: 400px;
+    border-radius: 50px;
+    border-width: 100px;
+    border-color: rgb(0, 0,0);
+    padding: 50px;
 }
 
 
