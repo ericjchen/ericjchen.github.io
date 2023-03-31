@@ -1,169 +1,72 @@
-@font-face {
-    font-family: IBMPlexMonoBold;
-    src: url(IBM_Plex_Mono/IBMPlexMono-Bold.ttf);
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
-@font-face {
-    font-family: IBMPlexMonoBoldItalic;
-    src: url(IBM_Plex_Mono/IBMPlexMono-BoldItalic.ttf);
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
 }
 
-@font-face {
-    font-family: IBMPlexMonoExtraLight;
-    src: url(IBM_Plex_Mono/IBMPlexMono-ExtraLight.ttf);
+.b-example-divider {
+    width: 100%;
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
-@font-face {
-    font-family: IBMPlexMonoExtraLightItalic;
-    src: url(IBM_Plex_Mono/IBMPlexMono-ExtraLightItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoItalic;
-    src: url(IBM_Plex_Mono/IBMPlexMono-Italic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoLight;
-    src: url(IBM_Plex_Mono/IBMPlexMono-Light.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoLightItalic;
-    src: url(IBM_Plex_Mono/IBMPlexMono-LightItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoMedium;
-    src: url(IBM_Plex_Mono/IBMPlexMono-Medium.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoMediumItalic;
-    src: url(IBM_Plex_Mono/IBMPlexMono-MediumItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoRegular;
-    src: url(IBM_Plex_Mono/IBMPlexMono-Regular.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoSemiBold;
-    src: url(IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoSemiBoldItalic;
-    src: url(IBM_Plex_Mono/IBMPlexMono-SemiBoldItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoThin;
-    src: url(IBM_Plex_Mono/IBMPlexMono-Thin.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoThinItalic;
-    src: url(IBM_Plex_Mono/IBMPlexMono-ThinItalic.ttf);
-}
-
-
-body
-{
-    font-family: IBMPlexMonoRegular;
-    font-size: 20px;
-    color:black;
-}
-
-.text
-{
-    margin: auto;
-    width: 75vw;
-}
-
-#headshot
-{
-    
-    height: 33vh;
-    width: 33vh;
-    object-fit: cover;
-    border-radius: 50%;
-    grid-area: headshot;
-    
-}
-
-.item1
-{
-    grid-area: headshot;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.item2
-{
-    grid-area: header;
-    font-family: IBMPlexMonoBoldItalic;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-.item3
-{ 
-    grid-area: intro; 
-    font-family: IBMPlexMonoMediumItalic;
-    display: flex;
-    align-items: top;
-}
-
-.title-card
-{
-    display: grid;
-    grid-template-areas:
-        'headshot header'
-        'headshot intro' ;
-    gap: 50px;
-    background-color: rgb(240, 240, 240);
-    border-radius: 100px;
-    padding: 50px;
-    height: 50vh;
-    transform: translate(0,25vh);
-}
-
-.parallax
-{
-    /* The image used */
-    background-image: url("images/Background.jpg");
-
-    /* Set a specific height */
-    min-height: 100vh; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.sec1
-{
+.b-example-vr {
+    flex-shrink: 0;
+    width: 1.5rem;
     height: 100vh;
-    width: 100vw
 }
 
-.frame{  
-    width: 250px;
-    height: 200px;
-    border: 1px solid black;
-    vertical-align: middle;
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
     text-align: center;
-    display: table-cell;
-}    
-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+}
+
+.btn-bd-primary {
+    --bd-violet-bg: #712cf9;
+    --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+    --bs-btn-font-weight: 600;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg: var(--bd-violet-bg);
+    --bs-btn-border-color: var(--bd-violet-bg);
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: #6528e0;
+    --bs-btn-hover-border-color: #6528e0;
+    --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: #5a23c8;
+    --bs-btn-active-border-color: #5a23c8;
+}
+
+.bd-mode-toggle {
+    z-index: 1500;
 }
