@@ -116,7 +116,7 @@ body
         'headshot header'
         'headshot intro' ;
     gap: 20px;
-    
+    background-color: rgb(240, 240, 240);
     padding: 50px;
 }
 
