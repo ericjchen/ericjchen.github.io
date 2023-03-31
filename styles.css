@@ -76,7 +76,7 @@ body
 .parallax
 {
     min-height: 80vh;
-    width: 100vw;
+    width: auto;
     
     background-attachment: fixed;
     background-repeat: no-repeat;
