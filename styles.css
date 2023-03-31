@@ -70,57 +70,78 @@
 
 .sec1
 {
-    height: 100vh;
-    width: auto;
     background-image: url("images/TwinHills.jpg");
-    background-size: cover;
-    background-position: center center;
+
+    min-height: 80vh;
+    width: auto;
+    
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    
     text-align:center;
+
     padding:0;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .sec2
 {
-    height: 100vh;
-    width: auto;
     background-image: url("images/SandBeach.jpg");
-    background-size: cover;
-    background-position: center center;
+
+    min-height: 80vh;
+    width: auto;
+    
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    
     text-align:center;
+    
     padding:0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .sec3
 {
-    height: 100vh;
-    width: auto;
     background-image: url("images/RockWalkway.jpg");
-    background-size: cover;
-    background-position: center center;
+    
+    min-height: 80vh;
+    width: auto;
+    
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    
     text-align:center;
+    
     padding:0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 .sec4
 {
-    height: 100vh;
-    width: auto;
     background-image: url("images/Ducks.jpg");
-    background-size: cover;
-    background-position: center center;
+    
+    min-height: 80vh;
+    width: auto;
+    
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    
     text-align:center;
+    
     padding:0;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 
 
