@@ -73,10 +73,44 @@
     src: url(fonts/Altosa.ttf);
 }
 
+@font-face {
+    font-family: Stellar;
+    src: url(fonts/Stellar-Regular.otf);
+}
+
+@font-face {
+    font-family: StellarLight;
+    src: url(fonts/Stellar-light.otf);
+}
+
+@font-face {
+    font-family: StellarBold;
+    src: url(fonts/Stellar-Bold.otf);
+}
+
+@font-face {
+    font-family: StellarMedium;
+    src: url(fonts/Stellar-Medium.otf);
+}
+
+@font-face {
+    font-family: Ginerin;
+    src: url(fonts/Ginerin-Regular.otf);
+}
+
+@font-face {
+    font-family: MoonBold;
+    src: url(fonts/Moon\ Bold.otf);
+}
+
+@font-face {
+    font-family: MoonLight;
+    src: url(fonts/Moon\ Light.otf);
+}
 
 body
 {
-    font-family: Altosa;
+    font-family: Stellar;
     overflow-x: hidden;
 }
 
