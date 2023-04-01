@@ -130,6 +130,12 @@ h1
     font-size: 80px;
 }
 
+h2
+{
+    color: white;
+
+}
+
 
 .parallax
 {
@@ -171,9 +177,55 @@ h1
     width: auto;
 }
 
+my-titlecard
+{
+    width: 60vw;
+    max-width: 1152px;
+    height: 40vh;
+    max-height: 432px;
 
+    display: grid;
+    grid-template-areas:
+        'headshot welcome'
+        'headshot intro';
 
+    padding: 50px;
+}
 
+my-headshot
+{
+    grid-area: headshot;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+my-welcome
+{
+    grid-area: welcome;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+my-intro
+{
+    grid-area: intro;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headshot
+{
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
 
 
 
