@@ -21,7 +21,7 @@
 body
 {
     background-color: #000b18;
-    font-family: OdudoMono;
+    font-family: OdudoMOno;
     overflow-x:hidden;
     color:#FFFACD;
     /*color:#ffff9c;*/
@@ -37,8 +37,20 @@ header
     align-items: center;
 }
 
+h1
+{
+    margin: 0px;
+    border:solid white;
+}
+
+h2
+{
+    margin: 0px;
+}
+
 #titlecard
 {
+    max-width: 60vw;
     display:grid;
     grid-template-areas: 
         'headshot intro'
@@ -52,6 +64,7 @@ header
     display:flex;
     justify-content: center;
     align-items: center;
+    border:solid 1px;
 }
 
 #headshot
@@ -69,6 +82,7 @@ header
     display: flex;
     justify-content: start;
     align-items: end;
+    border:solid 1px;
 }
 
 #tagline-container
@@ -77,6 +91,7 @@ header
     display: flex;
     justify-content:start;
     align-items: start;
+    border:solid 1px;
 }
 
 greeting
