@@ -39,12 +39,14 @@ header
 
 h1
 {
+    font-size:4vw;
     margin: 0px;
     border:solid white;
 }
 
 h2
 {
+    font-size: 2.5vw;
     margin: 0px;
 }
 
@@ -55,7 +57,7 @@ h2
     grid-template-areas: 
         'headshot intro'
         'headshot tagline';
-    gap: 10px;
+    gap: 2vw;
 }
 
 #headshot-container
@@ -87,34 +89,10 @@ h2
 
 #tagline-container
 {
+    height:9vw;
     grid-area: tagline;
     display: flex;
     justify-content:start;
     align-items: start;
     border:solid 1px;
-}
-
-greeting
-{
-    font-size: 8vw;
-    color:#fd5e53;
-}
-
-
-intro
-{
-    font-size: 5vw;
-    text-align: center;
-}
-
-tagline
-{
-    font-size: 2.8vw;
-    text-align: center;
-}
-
-.highlight
-{
-    color:#Fee374;
-    font-weight: bold;
 }
