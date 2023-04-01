@@ -108,11 +108,28 @@
     src: url(fonts/Moon\ Light.otf);
 }
 
+@font-face {
+    font-family: ArcaMajoraBold;
+    src: url(fonts/ArcaMajora3-Bold.otf);
+}
+
+@font-face {
+    font-family: ArcaMajoraHeavy;
+    src: url(fonts/ArcaMajora3-Heavy.otf);
+}
+
 body
 {
-    font-family: Stellar;
+    font-family: ArcaMajoraBold;
     overflow-x: hidden;
 }
+
+h1
+{
+    color: white;
+    font-size: 80px;
+}
+
 
 .parallax
 {
