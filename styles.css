@@ -20,8 +20,11 @@
 
 body
 {
-    background-color: rgb(5, 16, 30);
+    background-color: #000b18;
     font-family: OdudoMono;
+    overflow-x:hidden;
+    color:#FFFACD;
+    /*color:#ffff9c;*/
 }  
 
 header
@@ -36,33 +39,62 @@ header
 
 #titletextcard
 {
-    min-width: 200px;
-    max-width: 800px;
-    width: 60vw;
-    min-height: 100px;
-    max-height: 400px;
-    height: 40px;
-
-    display:flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
+    width:60vw;
+    height:40vw;
+    display:grid;
+    grid-template-areas: 
+        'headshot intro'
+        'headshot tagline';
 }
 
-#greeting
+#headshot
 {
-    font-size:60px;
-    color:#fd5e53;
+    width:30vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 50%;
+    border: #00172d 5px;
+    
+    grid-area: headshot;
 }
 
 #intro
 {
-    font-size:48px;
-    color:#fd9c53;
+    grid-area: intro;
+    display: flex;
+    justify-content: left;
+    align-items: end;
+}
+
+#tagline
+{
+    grid-area: tagline;
+    display: flex;
+    justify-content:left;
+    align-items: start;
+}
+
+greeting
+{
+    font-size: 8vw;
+    color:#fd5e53;
+}
+
+
+intro
+{
+    font-size: 5vw;
+    text-align: center;
+}
+
+tagline
+{
+    font-size: 2.8vw;
+    text-align: center;
 }
 
 .highlight
 {
     color:#Fee374;
+    font-weight: bold;
 }
