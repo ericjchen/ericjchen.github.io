@@ -23,8 +23,7 @@ header
 
 .titlecard
 {
-    width: auto;
-    max-width: 60vw;
+    max-width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
