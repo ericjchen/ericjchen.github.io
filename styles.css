@@ -37,7 +37,7 @@ header
     align-items: center;
 }
 
-#titletextcard
+#titlecard
 {
     width:60vw;
     height:40vw;
@@ -45,6 +45,15 @@ header
     grid-template-areas: 
         'headshot intro'
         'headshot tagline';
+    gap: 10px;
+}
+
+#headshot-container
+{
+    grid-area: headshot;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #headshot
@@ -54,23 +63,21 @@ header
     object-fit: cover;
     border-radius: 50%;
     border: #00172d 5px;
-    
-    grid-area: headshot;
 }
 
-#intro
+#intro-container
 {
     grid-area: intro;
     display: flex;
-    justify-content: left;
+    justify-content: start;
     align-items: end;
 }
 
-#tagline
+#tagline-container
 {
     grid-area: tagline;
     display: flex;
-    justify-content:left;
+    justify-content:start;
     align-items: start;
 }
 
