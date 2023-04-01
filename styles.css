@@ -8,46 +8,61 @@
     src: url(fonts/Altosa.ttf);
 }
 
+@font-face {
+    font-family: AlmaMono;
+    src: url(fonts/AlmaMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: OdudoMono;
+    src: url(fonts/OdudoMono-Regular.otf);
+}
+
 body
 {
     background-color: rgb(5, 16, 30);
-    /*color: rgb(21, 40, 82);*/
-    font-family: ArcaMajoraBold;
-    font-size:60px;
-    text-align: center;
+    font-family: OdudoMono;
 }  
 
-.c1
+header
 {
-    color: white;
+    height:100vh;
+    width:100vw;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.c2
+#titletextcard
 {
-    color: #09183B;
+    min-width: 200px;
+    max-width: 800px;
+    width: 60vw;
+    min-height: 100px;
+    max-height: 400px;
+    height: 40px;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
 }
 
-.c3
+#greeting
 {
-    color: #152852;
+    font-size:60px;
+    color:#fd5e53;
 }
 
-.c4
+#intro
 {
-    color: #4b3d60
+    font-size:48px;
+    color:#fd9c53;
 }
 
-.c5
+.highlight
 {
-    color: #fd5e53;
-}
-
-.c6
-{
-    color: #fd9c53;
-}
-
-.c7
-{
-    color: #Fee374;
+    color:#Fee374;
 }
