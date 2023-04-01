@@ -17,34 +17,30 @@ header
     width: 100vw;
     
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
 .titlecard
 {
-    max-width: 80vw;
     display: flex;
     justify-content: center;
     align-items: center;
     gap:2vw;
-    background-color: #00172D;
-    padding:2vw;
-    border-radius: 3vw;
 }
 
 #titlecard-headshot
 {
-    height: 20vw;
-    width: 20vw;
-    object-fit: cover;
-    border-radius: 50%;
+    height: 100vh;
 }
 
 #titlecard-textcontainer
 {
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    box-shadow: -1vw 0vw 1vw 1vw #000b18;
 }
 
 #titlecard-intro
