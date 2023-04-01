@@ -1,71 +1,6 @@
 @font-face {
-    font-family: IBMPlexMonoBold;
-    src: url(fonts/IBMPlexMono-Bold.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoBoldItalic;
-    src: url(fonts/IBMPlexMono-BoldItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoExtraLight;
-    src: url(fonts/IBMPlexMono-ExtraLight.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoExtraLightItalic;
-    src: url(fonts/IBMPlexMono-ExtraLightItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoItalic;
-    src: url(fonts/IBMPlexMono-Italic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoLight;
-    src: url(fonts/IBMPlexMono-Light.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoLightItalic;
-    src: url(fonts/IBMPlexMono-LightItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoMedium;
-    src: url(fonts/IBMPlexMono-Medium.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoMediumItalic;
-    src: url(fonts/IBMPlexMono-MediumItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoRegular;
-    src: url(fonts/IBMPlexMono-Regular.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoSemiBold;
-    src: url(fonts/IBMPlexMono-SemiBold.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoSemiBoldItalic;
-    src: url(fonts/IBMPlexMono-SemiBoldItalic.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoThin;
-    src: url(fonts/IBMPlexMono-Thin.ttf);
-}
-
-@font-face {
-    font-family: IBMPlexMonoThinItalic;
-    src: url(fonts/IBMPlexMono-ThinItalic.ttf);
+    font-family: ArcaMajoraBold;
+    src: url(fonts/ArcaMajora3-Bold.otf);
 }
 
 @font-face {
@@ -73,266 +8,46 @@
     src: url(fonts/Altosa.ttf);
 }
 
-@font-face {
-    font-family: Stellar;
-    src: url(fonts/Stellar-Regular.otf);
-}
-
-@font-face {
-    font-family: StellarLight;
-    src: url(fonts/Stellar-light.otf);
-}
-
-@font-face {
-    font-family: StellarBold;
-    src: url(fonts/Stellar-Bold.otf);
-}
-
-@font-face {
-    font-family: StellarMedium;
-    src: url(fonts/Stellar-Medium.otf);
-}
-
-@font-face {
-    font-family: Ginerin;
-    src: url(fonts/Ginerin-Regular.otf);
-}
-
-@font-face {
-    font-family: MoonBold;
-    src: url(fonts/Moon\ Bold.otf);
-}
-
-@font-face {
-    font-family: MoonLight;
-    src: url(fonts/Moon\ Light.otf);
-}
-
-@font-face {
-    font-family: ArcaMajoraBold;
-    src: url(fonts/ArcaMajora3-Bold.otf);
-}
-
-@font-face {
-    font-family: ArcaMajoraHeavy;
-    src: url(fonts/ArcaMajora3-Heavy.otf);
-}
-
 body
 {
+    background-color: rgb(5, 16, 30);
+    /*color: rgb(21, 40, 82);*/
     font-family: ArcaMajoraBold;
-    overflow-x: hidden;
-}
-
-h1
-{
-    color: white;
-    font-size: 80px;
-}
-
-h2
-{
-    color: white;
-
-}
-
-
-.parallax
-{
-    min-height: 80vh;
-    width: auto;
-    
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    padding:0;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.textCard
-{
-    width: 60vw;
-    height: 40vh;
-
-    background-color:rgba(248,248,248,0.7);
-
-    border: 10px solid rgba(240,240,240,0.5);
-    border-width: thick;
-    
-    
-    border-radius: 50px;
-    
-    box-shadow: 0px 0px 10px 1px black;
-
-    padding: 20px;
-}
-
-.whitespace
-{
-    height: 30vh;
-    width: auto;
-}
-
-my-titlecard
-{
-    width: 60vw;
-    max-width: 1152px;
-    height: 40vh;
-    max-height: 432px;
-
-    display: grid;
-    grid-template-areas:
-        'headshot welcome'
-        'headshot intro';
-
-    padding: 50px;
-}
-
-my-headshot
-{
-    grid-area: headshot;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-my-welcome
-{
-    grid-area: welcome;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-my-intro
-{
-    grid-area: intro;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.headshot
-{
-    width: 30vw;
-    height: 30vw;
-    object-fit: cover;
-    border-radius: 50%;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-body
-{
-    font-family: IBMPlexMonoRegular;
-    font-size: 20px;
-    color:black;
-}
-
-.text
-{
-    margin: auto;
-    width: 75vw;
-}
-
-#headshot
-{
-    
-    height: 33vh;
-    width: 33vh;
-    object-fit: cover;
-    border-radius: 50%;
-    grid-area: headshot;
-    
-}
-
-.item1
-{
-    grid-area: headshot;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.item2
-{
-    grid-area: header;
-    font-family: IBMPlexMonoBoldItalic;
-    display: flex;
-    align-items: center;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-}
-.item3
-{ 
-    grid-area: intro; 
-    font-family: IBMPlexMonoMediumItalic;
-    display: flex;
-    align-items: top;
-}
-
-.title-card
-{
-    display: grid;
-    grid-template-areas:
-        'headshot header'
-        'headshot intro' ;
-    gap: 50px;
-    background-color: rgb(240, 240, 240);
-    border-radius: 100px;
-    padding: 50px;
-    height: 50vh;
-    transform: translate(0,25vh);
-}
-
-.parallax
-{
-    
-    background-image: url("images/Background.jpg");
-
-    min-height: 100vh; 
-
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.sec1
-{
-    height: 100vh;
-    width: 100vw
-}
-
-.frame{  
-    width: 250px;
-    height: 200px;
-    border: 1px solid black;
-    vertical-align: middle;
+    font-size:60px;
     text-align: center;
-    display: table-cell;
-}    
-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    margin: 0 auto;
+}  
+
+.c1
+{
+    color: white;
 }
-*/
+
+.c2
+{
+    color: #09183B;
+}
+
+.c3
+{
+    color: #152852;
+}
+
+.c4
+{
+    color: #4b3d60
+}
+
+.c5
+{
+    color: #fd5e53;
+}
+
+.c6
+{
+    color: #fd9c53;
+}
+
+.c7
+{
+    color: #Fee374;
+}
