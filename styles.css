@@ -1,19 +1,4 @@
 @font-face {
-    font-family: ArcaMajoraBold;
-    src: url(fonts/ArcaMajora3-Bold.otf);
-}
-
-@font-face {
-    font-family: Altosa;
-    src: url(fonts/Altosa.ttf);
-}
-
-@font-face {
-    font-family: AlmaMono;
-    src: url(fonts/AlmaMono-Regular.ttf);
-}
-
-@font-face {
     font-family: OdudoMono;
     src: url(fonts/OdudoMono-Regular.otf);
 }
@@ -24,75 +9,51 @@ body
     font-family: OdudoMOno;
     overflow-x:hidden;
     color:#FFFACD;
-    /*color:#ffff9c;*/
-}  
+} 
 
 header
 {
-    height:100vh;
-    width:100vw;
+    height: 100vh;
+    width: 100vw;
     
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-h1
-{
-    font-size:4vw;
-    margin: 0px;
-    border:solid white;
-}
-
-h2
-{
-    font-size: 2.5vw;
-    margin: 0px;
-}
-
-#titlecard
+.titlecard
 {
     max-width: 60vw;
-    display:grid;
-    grid-template-areas: 
-        'headshot intro'
-        'headshot tagline';
-    gap: 2vw;
-}
-
-#headshot-container
-{
-    grid-area: headshot;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border:solid 1px;
+    gap:2vw
 }
 
-#headshot
+#titlecard-headshot
 {
-    width: 20vw;
     height: 20vw;
+    width: 20vw;
     object-fit: cover;
     border-radius: 50%;
-    border: #00172d 5px;
 }
 
-#intro-container
+#titlecard-textcontainer
 {
-    grid-area: intro;
+    width: 40vw;
     display: flex;
-    justify-content: start;
-    align-items: end;
-    border:solid 1px;
+    flex-direction: column;
+    gap:
 }
 
-#tagline-container
+#titlecard-intro
 {
-    height:9vw;
-    grid-area: tagline;
-    display: flex;
-    justify-content:start;
-    align-items: start;
-    border:solid 1px;
+    font-size: 5vw;
+    margin: 0px
+}
+
+#titlecard-tagline
+{
+    font-size: 2vw;
+    margin: 0px
 }
