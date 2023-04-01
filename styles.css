@@ -39,8 +39,6 @@ header
 
 #titlecard
 {
-    width:60vw;
-    height:40vw;
     display:grid;
     grid-template-areas: 
         'headshot intro'
@@ -58,8 +56,8 @@ header
 
 #headshot
 {
-    width:30vw;
-    height: 30vw;
+    width: 20vw;
+    height: 20vw;
     object-fit: cover;
     border-radius: 50%;
     border: #00172d 5px;
