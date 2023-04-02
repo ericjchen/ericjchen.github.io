@@ -3,54 +3,86 @@
     src: url(fonts/OdudoMono-Regular.otf);
 }
 
+:root
+{
+    --BACKGROUND-BLUE: #000b18;
+    --BACKGROUND-BLUE-DARK: #040F1C;
+}
+
 body
 {
-    background-color: #000b18;
+    background-color: black;
     font-family: OdudoMOno;
     overflow-x:hidden;
     color:#FFFACD;
+    margin: 0;
+    padding: 0; 
 } 
 
 header
 {
+    position: fixed;
+    top: 0;
+    left: 0;
+
     height: 100vh;
     width: 100vw;
     
     display: flex;
     justify-content: start;
     align-items: center;
+    
+    z-index: -99;
 }
 
-.titlecard
+.stripe
 {
+    height: 100vh;
+    width: 0vw;
+    background-color: var(--color-light);
+
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
+}
+
+.gradient
+{
+    height: 100vh;
+    width: 10vw;
+    background-image: linear-gradient(to right, var(--color-light), var(--color-dark));
+
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px
+} 
+
+.titlecard-container
+{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to right, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK));
+
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    gap:2vw;
+
+    padding: 2vw;
+    border-width: 0px;
+
 }
 
-#titlecard-headshot
-{
-    height: 100vh;
-}
-
-#titlecard-textcontainer
-{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: -1vw 0vw 1vw 1vw #000b18;
-}
-
-#titlecard-intro
+#intro
 {
     font-size: 4vw;
-    margin: 0px
+    margin: 0px;
 }
 
-#titlecard-tagline
+.sec2
 {
-    font-size: 2.5vw;
-    margin: 0px
+    margin-top: 100vh;
+
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK));
 }
