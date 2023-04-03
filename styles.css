@@ -64,6 +64,8 @@ header
 .titlecard-container
 {
     height: 100vh;
+    min-width: 65vw;
+    max-width: 65vw;
     background-image: linear-gradient(to bottom right, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK));
 
     display: flex;
