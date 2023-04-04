@@ -5,8 +5,8 @@
 
 :root
 {
-    --BACKGROUND-BLUE: #000b18;
-    --BACKGROUND-BLUE-DARK: #040F1C;
+    --BACKGROUND-BLUE: rgba(0, 23, 45, 1);
+    --BACKGROUND-BLUE-DARK: rgba(0, 23, 45, 0.8);
 }
 
 body
@@ -37,43 +37,59 @@ header
     z-index: -99;
 }
 
-.stripe
+.vstripe
 {
     height: 100vh;
-    max-width: 10vw;
-    min-width: 10vw;
-    background-color: var(--color-light);
 
     padding: 0px;
     margin: 0px;
     border-width: 0px;
 }
 
-
-.gradient
+.body
 {
-    height: 100vh;
-    max-width: 10vw;
-    background-image: linear-gradient(to right, var(--color-light), var(--color-dark));
+    max-width: 3vw;
+    min-width: 3vw;
+    background-color: var(--color-light);
+}
 
-    padding: 0px;
-    margin: 0px;
-    border-width: 0px
+.profile
+{
+    max-width: 1vw;
+    min-width: 1vw;
+    background-color: var(--color-dark);
+}
+
+
+.shadow
+{
+    max-width: 1vw;
+    min-width: 1vw;
+    background-image: linear-gradient(to var(--direction), var(--color-light), var(--color-dark));
 } 
+
+.gap
+{
+    max-width: 2vw;
+    min-width: 2vw;
+    background-color: var(--BACKGROUND-BLUE);
+}
 
 .titlecard-container
 {
     height: 100vh;
     min-width: 65vw;
     max-width: 65vw;
-    background-image: linear-gradient(to bottom right, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK));
+
+    background-color: var(--BACKGROUND-BLUE);
+    /* background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK)); */
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
 
-    padding: 5%;
+    padding: 7VW;
     border-width: 0px;
 
 }
@@ -90,11 +106,22 @@ header
     margin: 0px;
 }
 
+.hstripe
+{
+    width: 100vw;
+    max-height: 3vh;
+    min-height: 3vh;
+}
+
+
+
 .sec2
 {
     margin-top: 100vh;
 
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK));
+
+    background-color: var(--BACKGROUND-BLUE);
+    /* background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK)); */
 }
