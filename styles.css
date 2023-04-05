@@ -46,14 +46,14 @@ header
     border-width: 0px;
 }
 
-.body
+.vbody
 {
     max-width: 3vw;
     min-width: 3vw;
     background-color: var(--color-light);
 }
 
-.profile
+.vprofile
 {
     max-width: 1vw;
     min-width: 1vw;
@@ -61,14 +61,14 @@ header
 }
 
 
-.shadow
+.vshadow
 {
     max-width: 1vw;
     min-width: 1vw;
     background-image: linear-gradient(to var(--direction), var(--color-light), var(--color-dark));
 } 
 
-.gap
+.vgap
 {
     max-width: 2vw;
     min-width: 2vw;
@@ -109,11 +109,39 @@ header
 .hstripe
 {
     width: 100vw;
-    max-height: 3vh;
-    min-height: 3vh;
+    
+    padding: 0px;
+    margin: 0px;
+    border-width: 0px;
 }
 
+.hbody
+{
+    min-height: 2vh;
+    max-height: 2vh;
+    background-color: var(--color-light);
+}
 
+.hprofile
+{
+    min-height: 0.5vh;
+    max-width: 0.5vh;
+    background-color: var(--color-dark);
+}
+
+.hshadow
+{
+    max-height: 0.5vh;
+    min-height: 0.5vh;
+    background-image: linear-gradient(to var(--direction), var(--color-light), var(--color-dark));
+}
+
+.hgap
+{
+    max-height: 2vh;
+    min-height: 2vh;
+    background-color: var(--BACKGROUND-BLUE);
+}
 
 .sec2
 {
@@ -124,4 +152,9 @@ header
 
     background-color: var(--BACKGROUND-BLUE);
     /* background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK)); */
+
+    display: flex;
+    flex-direction: column;
+    
 }
+
