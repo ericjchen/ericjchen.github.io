@@ -143,18 +143,15 @@ header
     background-color: var(--BACKGROUND-BLUE);
 }
 
-.sec2
+.sec-div
 {
-    margin-top: 100vh;
-
-    height: 100vh;
+    margin-top: 105vh;
     width: 100vw;
 
-    
+    background-color: var(--BACKGROUND-BLUE);
     /* background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK)); */
 
     display: flex;
     flex-direction: column;
-    
 }
 
