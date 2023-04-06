@@ -125,7 +125,7 @@ header
 .hprofile
 {
     min-height: 0.5vh;
-    max-width: 0.5vh;
+    max-height: 0.5vh;
     background-color: var(--color-dark);
 }
 
