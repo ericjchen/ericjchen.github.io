@@ -1,157 +1,106 @@
 @font-face {
-    font-family: OdudoMono;
-    src: url(fonts/OdudoMono-Regular.otf);
+    font-family: JustSans;
+    src: url(fonts/JUST\ Sans\ Regular.otf);
 }
 
-:root
-{
-    --BACKGROUND-BLUE: rgba(0, 23, 45, 1);
-    --BACKGROUND-BLUE-DARK: rgba(0, 23, 45, 0.8);
+@font-face {
+    font-family: Antarctica;
+    src: url(fonts/AntarcticaDemoRegular.ttf);
 }
 
+@font-face {
+    font-family: Outfit;
+    src: url(fonts/Outfit-Regular-Rounded.ttf);
+}
+
+@font-face {
+    font-family: Walton;
+    src: url(fonts/Walton.otf);
+}
+
+@font-face {
+    font-family: Walton-Rounded;
+    src: url(fonts/Walton\ Rounded.otf);
+}
+
+@font-face {
+    font-family: Bigote;
+    src: url(fonts/Bigote\ FREE.ttf);
+}
+
+@font-face {
+    font-family: Palo;
+    src: url(fonts/TypeUnion\ -\ Palo\ Compressed\ Medium.otf)
+}
+
+@font-face {
+    font-family: Rusty;
+    src: url(fonts/RustyDemo-6YYwg.ttf)
+}
+
+@font-face {
+    font-family: Moon;
+    src: url(fonts/moon_get-Heavy.ttf);
+}
+
+@font-face {
+    font-family: Radio-Grotesk;
+    src: url(fonts/RadioGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: Gilbert;
+    src: url(fonts/Gilbert-Bold\ Preview5.otf);
+}
+
+@font-face {
+    font-family: Freshwost;
+    src: url(fonts/Freshwost-1GJJL.otf);
+}
+
+@font-face {
+    font-family: Narrenschiff;
+    src: url(fonts/Narrenschiff-Regular.otf);
+}
+
+@font-face {
+    font-family: Axima;
+    src: url(fonts/TG\ Axima\ Regular.otf);
+}
+
+@font-face {
+    font-family: ;
+    src: url(fonts/Narrenschiff-Regular.otf)
+}
 body
 {
-    background-color: black;
-    max-width: 100%;
-    font-family: OdudoMOno;
-    overflow-x:hidden;
-    color:#FFFACD;
-    margin: 0;
-    padding: 0; 
-} 
-
-header
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-
     height: 100vh;
-    max-width: 100vw;
-    min-width: 100vw;
-    
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    
-    z-index: -99;
-}
-
-.vstripe
-{
-    height: 100vh;
-
-    padding: 0px;
-    margin: 0px;
-    border-width: 0px;
-}
-
-.vbody
-{
-    max-width: 3vw;
-    min-width: 3vw;
-    background-color: var(--color-light);
-}
-
-.vprofile
-{
-    max-width: 1vw;
-    min-width: 1vw;
-    background-color: var(--color-dark);
-}
-
-
-.vshadow
-{
-    max-width: 1vw;
-    min-width: 1vw;
-    background-image: linear-gradient(to var(--direction), var(--color-light), var(--color-dark));
-} 
-
-.vgap
-{
-    max-width: 2vw;
-    min-width: 2vw;
-    background-color: var(--BACKGROUND-BLUE);
-}
-
-.titlecard-container
-{
-    height: 100vh;
-    min-width: 65vw;
-    max-width: 65vw;
-
-    background-color: var(--BACKGROUND-BLUE);
-    /* background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK)); */
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: 
+        linear-gradient(-60deg, 
+            rgb(0,11,24),
+            rgb(0,23,45),
+            rgb(2,38,77));
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
 
-    padding: 7VW;
-    border-width: 0px;
-
+    font-family: Axima;
+    /* letter-spacing: 0.2vw; */
 }
 
-#intro
+
+.gradient-text {
+    background-image: linear-gradient(60deg, rgb(253,94,83), rgb(253,156,83), rgb(253,227,116));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+.navbar-container
 {
-    font-size: 10vh;
-    margin: 0px;
-}
-
-#tagline
-{
-    font-size: 5vh;
-    margin: 0px;
-}
-
-.hstripe
-{
-    width: 100vw;
-    
-    padding: 0px;
-    margin: 0px;
-    border-width: 0px;
-}
-
-.hbody
-{
-    min-height: 2vh;
-    max-height: 2vh;
-    background-color: var(--color-light);
-}
-
-.hprofile
-{
-    min-height: 0.5vh;
-    max-height: 0.5vh;
-    background-color: var(--color-dark);
-}
-
-.hshadow
-{
-    max-height: 0.5vh;
-    min-height: 0.5vh;
-    background-image: linear-gradient(to var(--direction), var(--color-light), var(--color-dark));
-}
-
-.hgap
-{
-    max-height: 2vh;
-    min-height: 2vh;
-    background-color: var(--BACKGROUND-BLUE);
-}
-
-.sec-div
-{
-    margin-top: 105vh;
-    width: 100vw;
-
-    background-color: var(--BACKGROUND-BLUE);
-    /* background-image: linear-gradient(to bottom, var(--BACKGROUND-BLUE), var(--BACKGROUND-BLUE-DARK)); */
-
     display: flex;
-    flex-direction: column;
+    
 }
-
