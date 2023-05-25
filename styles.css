@@ -1,0 +1,31 @@
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    font-family: headerFont;
+    line-height: 100%;
+}
+
+#greeting {
+    font-size: 100px;
+}
+
+#intro {
+    font-size: 60px;
+}
+
+.body {
+    font-family: bodyFont;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: headerFont;
+    src: url(fonts/Wildstripe.otf);
+}
+
+@font-face {
+    font-family: bodyFont;
+    src: url(fonts/IBMPlexMono-MediumItalic.ttf)
+}
