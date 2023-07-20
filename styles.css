@@ -14,7 +14,7 @@ body {
 
 /* Mobile */
 #class-container {
-    max-width: 75%;
+    max-width: 95%;
     margin: auto;
 }
 
@@ -29,7 +29,7 @@ body {
 /* Desktop */
 @media (min-width:900px) {
     .container {
-        max-width: 95%;
+        max-width: 75%;
         margin: auto;
     }
 }
