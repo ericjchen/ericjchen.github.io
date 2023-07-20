@@ -10,8 +10,10 @@ body {
     font-family: greycliff-demibold;
 
     overflow-x: hidden;
+
+    margin: auto;
 }
 
 #content-container {
-    max-width: 60vw;
+    max-width: 900px;
 }
