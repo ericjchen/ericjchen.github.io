@@ -12,11 +12,6 @@ body {
     overflow-x: hidden;
 }
 
-main {
-    padding-left: calc(8px + 1.5625vw);
-    padding-right: calc(8px + 1.5625vw);
-}
-
-#content {
-    
+#content-container {
+    max-width: 60vw;
 }
