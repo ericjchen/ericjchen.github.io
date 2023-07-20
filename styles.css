@@ -12,12 +12,24 @@ body {
     overflow-x: hidden;
 }
 
+/* Mobile */
 #class-container {
-    font-size: 50px;
-    border-style: solid;
-    border-color: #FAF8F6;
-
     max-width: 75vw;
-
     margin: auto;
+}
+
+/* Tablet */
+@media (min-width:600px) {
+    .container {
+        max-width: 90vw;
+        margin: auto;
+    }
+}
+
+/* Desktop */
+@media (min-width:900px) {
+    .container {
+        max-width: 95vw;
+        margin: auto;
+    }
 }
