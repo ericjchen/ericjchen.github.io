@@ -12,8 +12,10 @@ body {
     overflow-x: hidden;
 
     margin: auto;
+
+    align-items: center;
 }
 
 #content-container {
-    max-width: 900px;
+    max-width: 60px;
 }
