@@ -10,6 +10,15 @@ body {
     font-family: greycliff-demibold;
 
     overflow-x: hidden;
+    padding: 0%;
+    padding: 0%;
+}
+
+#navbar {
+    height: 10vh;
+    border-style: solid;
+    margin: 0%;
+    padding: 0%;
 }
 
 
