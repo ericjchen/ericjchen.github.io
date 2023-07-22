@@ -6,40 +6,33 @@
 body {
     background-color: #1D1C1A;
     color: #FAF8F6;
-
     font-family: greycliff-demibold;
 
     overflow-x: hidden;
-    margin: 0%;
-    padding: 0%;
-}
 
-#navbar {
-    height: 10vh;
-    border-style: solid;
-    margin: 0%;
-    padding: 0%;
-}
-
-
-/* Mobile */
-.class-container {
     max-width: 95%;
     margin: auto;
 }
 
-/* Tablet */
 @media (min-width: 600px) {
-    .class-container {
+    body {
         max-width: 90%;
         margin: auto;
     }
 }
 
-/* Desktop */
-@media (min-width:900px) {
-    .class-container {
+@media (min-width: 900px) {
+    body {
         max-width: 75%;
         margin: auto;
     }
+}
+
+#navbar {
+    height: 10vh;
+    margin: 0%;
+    padding: 0%;
+
+    display: flex;
+    justify-content: space-between;
 }
