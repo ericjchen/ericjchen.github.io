@@ -35,4 +35,17 @@ body {
 
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+#home {
+ 
+}
+
+#links {
+    display: flex;
+}
+
+.bordered {
+    border-style: solid;
 }
