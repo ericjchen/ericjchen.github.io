@@ -10,20 +10,20 @@ body {
 
     overflow-x: hidden;
 
-    max-width: 95%;
+    max-width: 95vw;
     margin: auto;
 }
 
 @media (min-width: 600px) {
     body {
-        max-width: 90%;
+        max-width: 90vw;
         margin: auto;
     }
 }
 
 @media (min-width: 900px) {
     body {
-        max-width: 75%;
+        max-width: 75vw;
         margin: auto;
     }
 }
@@ -46,6 +46,11 @@ body {
     display: flex;
 }
 
+.links-item {
+    padding-left: 5vw;
+}
+
 .bordered {
     border-style: solid;
 }
+
